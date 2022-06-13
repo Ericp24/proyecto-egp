@@ -1,0 +1,936 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.body{
+    background-color: rgba(255, 208, 0, 0.863);
+}
+
+/* index */
+
+.tituloPr{
+    color: rgb(17, 17, 17);
+    font-size: 5rem;
+    position: absolute;
+    text-align: center;
+    margin-left: 25%;
+
+}
+.h2Pr{
+    color: rgba(255, 208, 0, 0.863);
+    font-weight: normal;
+    text-align: center;
+    font-size: 3rem;
+}
+.h3Pr{
+    color: rgb(255, 208, 0, 0.863);
+    font-weight: normal;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.subtitulos{
+    background-color: rgb(20, 20, 20);
+    margin-top: 6rem;
+    width: 100%;
+    position: absolute;
+    padding: 8rem;
+    
+}
+
+.imgFondo{
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    opacity: 25%
+}
+
+/* grid index */
+.body{
+    display: grid;
+    grid-template-areas: "header"
+                         "main"
+                         "footer";
+}
+
+/* nav */
+
+.barraInicio{
+    grid-area: header;
+    display: inline-flex;
+    position: sticky;
+    z-index: 100;
+    top: 0.8rem;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 100%;
+    margin: 1rem;
+    justify-content: space-evenly;
+
+
+}
+.letra{
+    text-decoration: none;
+    color: rgba(255, 208, 0, 0.863);
+}
+.indice{
+    display: inline-flex;
+    list-style-type: none;
+    background-color: rgb(32, 32, 37);
+    border-radius: 10%;
+    padding: 0.8rem;
+    margin: 0.8rem;
+
+}
+.ul{
+    list-style: none;
+    font-size: large;
+    font-weight: bolder;
+    display: flex;
+    
+}
+.imgLogo{
+    margin-right: 32rem
+}
+.footer{
+    grid-area: footer;
+    text-align: center;
+    background-color: black;
+    color: rgb(214, 214, 24);
+    margin-top: 12rem;
+    padding: 3rem;
+}
+
+/* Quienes somos */
+
+.quienesSomos{
+    grid-area: quienes;
+    background-color: blue;
+    
+
+}
+.imagenQuienesSomos{
+    grid-area: imagen;
+    background-color: blueviolet;
+    
+}
+.mision{
+    grid-area: mision;
+    background-color: green;
+    
+}
+.vision{
+    grid-area: vision;
+    background-color: chartreuse;
+    
+}
+.elegirnos{
+    grid-area: elegirnos;
+    background-color: orange;
+    
+}
+
+
+/* Servicios */
+
+.mainDos{
+    display: grid;
+    grid-template-areas:"servicios imagenSeccion"
+                        "consultora mediciones"
+                        "ambiente incendio"
+                        "habilitacion habilitacion" ;
+    justify-items: center;
+    align-items: center;
+
+    
+}
+.primeraServicios{
+    grid-area: servicios;
+    width: 80%;
+}
+.imagenSeccion{
+    grid-area: imagenSeccion;
+}
+.consultoria{
+    grid-area: consultora;
+
+}
+.mediciones{
+    grid-area: mediciones;
+
+}
+.ambiente{
+    grid-area: ambiente;
+
+}
+.incendios{
+    grid-area: incendio;
+
+}
+.habilitacion{
+    grid-area: habilitacion;
+    
+}
+
+.tituloServicios{
+    text-align: center;
+    font-size: 3.5rem;
+
+}
+.parrafoServicios{
+    text-align: justify;
+    font-size: 1.5rem;
+    font-weight: bolder;
+
+}
+.imagenServicios{
+    border-radius: 10%;
+    width:80%
+}
+.imagenTipoUno{
+    border-radius: 10%;
+    margin-left: 39%;
+    margin-top: 2%;
+}
+.imagenTipoDos{
+    border-radius: 10%;
+    margin-left: 37%;
+    margin-top: 2%;
+}
+.imagenTipoTres{
+    border-radius: 10%;
+    margin-left: 42%;
+    margin-top: 2%;
+}
+.imagenTipoCuatro{
+    border-radius: 10%;
+    margin-left: 39%;
+    margin-top: 2%;
+}
+.imagenTipoCinco{
+    border-radius: 10%;
+    margin-left: 45%;
+    margin-top: 2%;
+    align-content: center;
+
+}
+
+.tituloServiciosPrestados{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.8rem;
+    background-color: rgb(32, 32, 37);
+    margin-left: 8%;
+    margin-right: 8%;
+    border-radius: 15px;
+    color:rgb(214, 214, 24)
+    
+}
+
+.parrafoServiciosPrestados{
+    text-align: justify;
+    margin: 3%;
+    font-weight: bolder;
+}
+
+
+/* Clientes */
+
+.sectionClientes{
+    display: grid;
+    grid-template-areas:"imagenCinco imagenSeis imagenTres imagenCuatro"
+                        "imagenDos imagenUno imagenOcho imagenSiete";
+    justify-items: center;
+    align-items: center;
+    
+}
+
+
+.imagenUno{
+    grid-area: imagenUno;
+    margin: 1rem;
+
+}
+.imagenDos{
+    grid-area: imagenDos;
+    margin: 1rem;
+
+}
+.imagenTres{
+    grid-area: imagenTres;
+    margin: 1rem;
+}
+.imagenCuatro{
+    grid-area: imagenCuatro;
+    margin: 1rem;
+
+}
+.imagenCinco{
+    grid-area: imagenCinco;
+    margin: 1rem;
+
+}
+.imagenSeis{
+    grid-area: imagenSeis;
+    margin: 1rem;
+
+}
+.imagenSiete{
+    grid-area: imagenSiete;
+    margin: 1rem;
+
+}
+.imagenOcho{
+    grid-area: imagenOcho;
+    margin: 1rem;
+
+}
+
+.tituloClientes{
+    text-align: center;
+    font-size: 3.5rem;
+    margin-top: 3.5rem;
+    
+}
+.sectionClientes{
+    margin-top: 0.5rem;
+    padding: 2rem;
+    box-sizing: border-box;
+    justify-content: center;
+
+
+}
+.logosClientes{
+    border-radius: 10%;
+}
+
+/* Contacto */
+
+.contactanos{
+    display: grid;
+    grid-template-areas:"inicioContacto inicioContacto"
+                        "datosContacto ubicacion"
+                        "formulario formulario";
+    justify-items: center;
+    align-items: center;
+}
+
+.inicioContacto{
+    grid-area: inicioContacto;
+}
+
+.tituloContacto{
+    text-align: center;
+    font-size: 3.5rem;
+}
+
+.infoContacto{
+    text-align: center;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    font-size: 1.5rem;
+}
+
+.datosContacto{
+    grid-area: datosContacto;
+}
+
+form {
+    width: 600px;
+    margin: auto;
+    background-color: rgb(32, 32, 37);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 10px;
+
+}
+
+.tituloForm{
+    color: rgba(255, 208, 0, 0.863);
+    text-align: center;
+    margin: 0%;
+    font-size: 30px;
+    margin-bottom: 20px;
+
+}
+
+input, textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+    font-weight: bolder;
+}
+
+textarea {
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+    
+}
+
+#boton {
+    background:rgba(255, 208, 0, 0.863);
+    padding: 20px;
+    font-weight: bolder;
+}
+
+
+.listaContacto{
+    list-style: none;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: rgb(32, 32, 37);
+    border-radius: 10px;
+    margin-left: 20%;
+    color: rgba(255, 208, 0, 0.863);
+    padding: 1rem;
+    
+
+}
+
+.ubicacion{
+    grid-area: ubicacion;
+    
+}
+
+.formulario{
+    grid-area: formulario;
+
+}
+
+/*media mobile*/
+
+@media screen and ( max-width: 600px ) {
+
+/* mobile index */
+    
+    .tituloPr{
+        color: rgb(17, 17, 17);
+        font-size: 3.5rem;    
+        text-align: center;
+        margin-left: 1%;
+        position: relative;
+
+    
+    }
+    .h2Pr{
+        color: rgba(255, 208, 0, 0.863);
+        font-weight: normal;
+        text-align: center;
+        font-size: 2.4rem;
+    }
+    .h3Pr{
+        color: rgb(255, 208, 0, 0.863);
+        font-weight: normal;
+        text-align: center;
+        font-size: 1.3rem;
+    }
+    
+    .subtitulos{
+        background-color: rgb(20, 20, 20);
+        margin-top: 10%;
+        width: 100%;
+        padding: 1%;
+        position: relative;
+        
+    }
+    
+    .imgFondo{
+        justify-content: center;
+        position:center;
+        width: 100%;
+        opacity: 100%;
+        
+    
+    }
+    
+/* mobile nav */
+
+.barraInicio{
+    grid-area: header;
+    display: inline-block;
+    position: sticky;
+    z-index: 100;
+    top: 0.2rem;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 100%;
+    justify-content: space-evenly;
+
+
+
+}
+.letra{
+    text-decoration: none;
+    color: rgba(255, 208, 0, 0.863);
+    font-size: 0.9rem;
+    text-align: center;
+}
+.indice{
+    display: inline-flex;
+    list-style-type: none;
+    background-color: rgb(32, 32, 37);
+    border-radius: 10%;
+    padding: 0.8rem;
+    margin: 0.1rem;
+
+
+}
+.ul{
+    list-style: none;
+    font-size: large;
+    font-weight: bolder;
+    display: flex;
+}
+.imgLogo{
+    display: none;
+
+}
+
+/* mobile footer */
+
+.footer{
+    grid-area: footer;
+    text-align: center;
+    background-color: black;
+    color: rgb(214, 214, 24);
+}
+
+/* mobile servicios */
+
+.mainDos{
+    display: grid;
+    grid-template-areas:"servicios" 
+                        "imagenSeccion"
+                        "consultora" 
+                        "mediciones"
+                        "ambiente" 
+                        "incendio"
+                        "habilitacion" ;
+    justify-items: center;
+    align-items: center;
+    
+}
+.primeraServicios{
+    grid-area: servicios;
+}
+.imagenSeccion{
+    grid-area: imagenSeccion;
+    margin-left: 15%;
+    margin-top: 5%;
+}
+.consultora{
+    grid-area: consultora;
+}
+.mediciones{
+    grid-area: mediciones;
+}
+.ambiente{
+    grid-area: ambiente;
+}
+.incendios{
+    grid-area: incendio;
+}
+.habilitacion{
+    grid-area: habilitacion;
+}
+.imagenServicios{
+    border-radius: 10%;
+    
+}
+.imagenTipoUno{
+    border-radius: 10%;
+    margin-left: 37%;
+    margin-top: 2%;
+}
+.imagenTipoDos{
+    border-radius: 10%;
+    margin-left: 37%;
+    margin-top: 2%;
+}
+.imagenTipoTres{
+    border-radius: 10%;
+    margin-left: 40%;
+    margin-top: 2%;
+}
+.imagenTipoCuatro{
+    border-radius: 10%;
+    margin-left: 40%;
+    margin-top: 2%;
+}
+.imagenTipoCinco{
+    border-radius: 10%;
+    margin-left: 38%;
+    margin-top: 2%;
+    align-content: center;
+
+}
+
+/* mobile clientes */
+
+.sectionClientes{
+    display: grid;
+    grid-template-areas:"imagenCinco"
+                        "imagenSeis"
+                        "imagenTres" 
+                        "imagenCuatro"
+                        "imagenDos" 
+                        "imagenUno" 
+                        "imagenOcho" 
+                        "imagenSiete";
+    justify-items: center;
+    align-items: center;
+}
+    
+    .tituloClientes{
+        text-align: center;
+        font-size: 3.5rem;
+        
+    }
+    .sectionClientes{
+        box-sizing: border-box;
+        justify-content: center;
+    }
+    
+    
+    
+    .logosClientes{
+        border-radius: 10%;
+    }
+
+/* mobile contacto */
+
+.contactanos{
+    display: grid;
+    grid-template-areas:"inicioContacto"
+                        "datosContacto" 
+                        "ubicacion"
+                        "formulario";
+    justify-items: center;
+    align-items: center;
+}
+
+.inicioContacto{
+    grid-area: inicioContacto;
+}
+
+.tituloContacto{
+    text-align: center;
+    font-size: 3.5rem;
+}
+
+.infoContacto{
+    text-align: center;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    font-size: 1.5rem;
+}
+
+.datosContacto{
+    grid-area: datosContacto;
+}
+
+.listaContacto{
+    list-style: none;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: rgb(32, 32, 37);
+    border-radius: 10px;
+    margin: 1%;
+    color: rgba(255, 208, 0, 0.863);
+    padding: 1rem;
+    
+
+}
+
+.ubicacion{
+    grid-area: ubicacion;
+    margin: 5%;
+    
+}
+
+.formulario{
+    grid-area: formulario;
+    width: 80%;
+    margin: 5%;
+}
+
+form {
+    width: 100%;
+}
+
+}
+
+/*media tablet*/
+
+@media screen and ( min-width:601px) and (max-width:1200px) {
+
+    .tituloPr{
+        color: rgb(17, 17, 17);
+        font-size: 3.5rem;    
+        text-align: center;
+        margin-left: 1%;
+        position: relative;
+
+    
+    }
+    .h2Pr{
+        color: rgba(255, 208, 0, 0.863);
+        font-weight: normal;
+        text-align: center;
+        font-size: 2.4rem;
+    }
+    .h3Pr{
+        color: rgb(255, 208, 0, 0.863);
+        font-weight: normal;
+        text-align: center;
+        font-size: 1.3rem;
+    }
+    
+    .subtitulos{
+        background-color: rgb(20, 20, 20);
+        margin-top: 10%;
+        width: 100%;
+        padding: 1%;
+        position: relative;
+        
+    }
+    
+    .imgFondo{
+        justify-content: center;
+        position:center;
+        width: 100%;
+        opacity: 100%;
+        
+    
+    }
+    
+/* tablet nav */
+
+.barraInicio{
+    grid-area: header;
+    display: inline-block;
+    position: sticky;
+    z-index: 100;
+    top: 0.2rem;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 100%;
+    justify-content: space-evenly;
+
+
+
+}
+.letra{
+    text-decoration: none;
+    color: rgba(255, 208, 0, 0.863);
+    font-size: 0.9rem;
+    text-align: center;
+}
+.indice{
+    display: inline-flex;
+    list-style-type: none;
+    background-color: rgb(32, 32, 37);
+    border-radius: 10%;
+    padding: 0.8rem;
+    margin: 0.1rem;
+
+}
+.ul{
+    list-style: none;
+    font-size: large;
+    font-weight: bolder;
+    display: flex;
+}
+.imgLogo{
+    margin-left: 35%;
+    width: 25%;
+    display: none;
+
+}
+
+/* tablet footer */
+
+.footer{
+    grid-area: footer;
+    text-align: center;
+    background-color: black;
+    color: rgb(214, 214, 24);
+}
+
+/* tablet servicios */
+
+.mainDos{
+    display: grid;
+    grid-template-areas:"servicios" 
+                        "imagenSeccion"
+                        "consultora" 
+                        "mediciones"
+                        "ambiente" 
+                        "incendio"
+                        "habilitacion" ;
+    justify-items: center;
+    align-items: center;
+    
+}
+.primeraServicios{
+    grid-area: servicios;
+}
+.imagenSeccion{
+    grid-area: imagenSeccion;
+    margin-left: 15%;
+    margin-top: 5%;
+}
+.consultora{
+    grid-area: consultora;
+}
+.mediciones{
+    grid-area: mediciones;
+}
+.ambiente{
+    grid-area: ambiente;
+}
+.incendios{
+    grid-area: incendio;
+}
+.habilitacion{
+    grid-area: habilitacion;
+}
+.imagenServicios{
+    border-radius: 10%;
+    
+}
+.imagenTipoUno{
+    border-radius: 10%;
+    margin-left: 37%;
+    margin-top: 2%;
+}
+.imagenTipoDos{
+    border-radius: 10%;
+    margin-left: 37%;
+    margin-top: 2%;
+}
+.imagenTipoTres{
+    border-radius: 10%;
+    margin-left: 40%;
+    margin-top: 2%;
+}
+.imagenTipoCuatro{
+    border-radius: 10%;
+    margin-left: 40%;
+    margin-top: 2%;
+}
+.imagenTipoCinco{
+    border-radius: 10%;
+    margin-left: 38%;
+    margin-top: 2%;
+    align-content: center;
+
+}
+
+/* tablet clientes */
+
+.sectionClientes{
+    display: grid;
+    grid-template-areas:"imagenCinco imagenSeis"
+                        "imagenTres imagenCuatro"
+                        "imagenDos imagenUno" 
+                        "imagenOcho imagenSiete";
+    justify-items: center;
+    align-items: center;
+}
+    
+    .tituloClientes{
+        text-align: center;
+        font-size: 3.5rem;
+        
+    }
+    .sectionClientes{
+        box-sizing: border-box;
+        justify-content: center;
+    }
+    
+    
+    
+    .logosClientes{
+        border-radius: 10%;
+    }
+
+/* tablet contacto */
+
+.contactanos{
+    display: grid;
+    grid-template-areas:"inicioContacto"
+                        "datosContacto" 
+                        "ubicacion"
+                        "formulario";
+    justify-items: center;
+    align-items: center;
+}
+
+.inicioContacto{
+    grid-area: inicioContacto;
+}
+
+.tituloContacto{
+    text-align: center;
+    font-size: 3.5rem;
+}
+
+.infoContacto{
+    text-align: center;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    font-size: 1.5rem;
+}
+
+.datosContacto{
+    grid-area: datosContacto;
+}
+
+.listaContacto{
+    list-style: none;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: rgb(32, 32, 37);
+    border-radius: 10px;
+    margin: 1%;
+    color: rgba(255, 208, 0, 0.863);
+    padding: 1rem;
+    
+
+}
+
+.ubicacion{
+    grid-area: ubicacion;
+    margin: 5%;
+    
+}
+
+.formulario{
+    grid-area: formulario;
+    width: 80%;
+    margin: 5%;
+}
+            
+}               
+        
+    
+    
+
+
+
