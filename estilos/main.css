@@ -9,8 +9,39 @@
 .body{
     background-color: rgba(255, 208, 0, 0.863);
 }
+/* menu hamburguesa */
+
+.offcanvas-header{
+    background-color: rgb(32, 32, 37);
+}
+
+.offcanvas-title{
+    color: rgba(255, 208, 0);
+
+}
+
+.offcanvas-body{
+    background-color: rgba(255, 208, 0);
+
+}
+
+.navbar-toggler{
+    color: rgba(255, 208, 0, 0.863);
+    background-color: rgba(255, 208, 0);
+}
+
+.navbar-toggler-icon{
+    background-color: rgba(255, 208, 0);
+}
 
 
+
+.navbar-brand{
+    background-color: rgb(32, 32, 37);
+    border-radius: 10px;
+    color: rgba(255, 208, 0);
+    padding: 0.4rem;
+}
 
 
 /* index */
@@ -23,14 +54,14 @@
     margin-left: 25%;
 
 }
-.h2Pr{
+h2{
     color: rgba(255, 208, 0, 0.863);
     font-weight: normal;
     text-align: center;
     font-size: 3rem;
 }
 .h3Pr{
-    color: rgb(255, 208, 0, 0.863);
+    color:rgba(255, 208, 0, 0.863);
     font-weight: normal;
     text-align: center;
     font-size: 1.5rem;
@@ -49,8 +80,10 @@
     justify-content: center;
     position: relative;
     width: 100%;
-    opacity: 25%
+    opacity: 25%;
+    height: 100%;
 }
+
 
 
 
@@ -63,93 +96,27 @@
                          "footer";
 }
 
-/* nav */
-
-.barraInicio{
-    grid-area: header;
-    display: inline-flex;
-    position: sticky;
-    z-index: 100;
-    top: 0.8rem;
-    box-sizing: border-box;
-    overflow: hidden;
-    width: 100%;
-    margin: 1rem;
-    justify-content: space-evenly;
-
-
-}
-.letra{
-    text-decoration: none;
-    color: rgba(255, 208, 0, 0.863);
-}
-.indice{
-    display: inline-flex;
-    list-style-type: none;
-    background-color: rgb(32, 32, 37);
-    border-radius: 10%;
-    padding: 0.8rem;
-    margin: 0.8rem;
-
-}
-/* animaciones */
-
-.indice:hover{
-    background-color:rgba(255, 208, 0, 0.863) ;
-}
-.letra:hover{
-    color: black;
-}
-
-
-
-.ul{
-    list-style: none;
-    font-size: large;
-    font-weight: bolder;
-    display: flex;
-    
-}
-.imgLogo{
-    margin-right: 32rem
-}
 .footer{
     grid-area: footer;
     text-align: center;
     background-color: black;
-    color: rgb(214, 214, 24);
+    color: rgba(255, 208, 0, 0.863);
     margin-top: 12rem;
     padding: 3rem;
+    
+}
+
+.icono{
+    text-decoration: none;
+    color: rgba(255, 208, 0, 0.863);
+    margin: 0.5rem;
+
+
 }
 
 /* Quienes somos */
 
-.quienesSomos{
-    grid-area: quienes;
-    background-color: blue;
-    
 
-}
-.imagenQuienesSomos{
-    grid-area: imagen;
-    background-color: blueviolet;
-    
-}
-.mision{
-    grid-area: mision;
-    background-color: green;
-    
-}
-.vision{
-    grid-area: vision;
-    background-color: chartreuse;
-    
-}
-.elegirnos{
-    grid-area: elegirnos;
-    background-color: orange;
-    
-}
 
 
 /* Servicios */
@@ -270,8 +237,8 @@
 .imagenUno{
     grid-area: imagenUno;
     margin: 1rem;
-
 }
+
 .imagenDos{
     grid-area: imagenDos;
     margin: 1rem;
@@ -323,6 +290,13 @@
 }
 .logosClientes{
     border-radius: 10%;
+}
+
+.logosClientes:hover{
+
+    border: 5px solid;
+    transform: scale(1.2);
+
 }
 
 /* Contacto */
@@ -464,56 +438,15 @@ textarea {
     
     .imgFondo{
         justify-content: center;
-        position:center;
+        position: relative;
         width: 100%;
-        opacity: 100%;
-        
-    
+        opacity: 25%;
+        height: 100%;
     }
     
-/* mobile nav */
-
-.barraInicio{
-    grid-area: header;
-    display: inline-block;
-    position: sticky;
-    z-index: 100;
-    top: 0.2rem;
-    box-sizing: border-box;
-    overflow: hidden;
-    width: 100%;
-    justify-content: space-evenly;
-
-
-
-}
-.letra{
-    text-decoration: none;
-    color: rgba(255, 208, 0, 0.863);
-    font-size: 0.9rem;
-    text-align: center;
-}
-.indice{
-    display: inline-flex;
-    list-style-type: none;
-    background-color: rgb(32, 32, 37);
-    border-radius: 10%;
-    padding: 0.8rem;
-    margin: 0.1rem;
-
-
-}
-.ul{
-    list-style: none;
-    font-size: large;
-    font-weight: bolder;
-    display: flex;
-}
-.imgLogo{
-    display: none;
-
-}
-
+    
+    
+    
 /* mobile footer */
 
 .footer{
@@ -734,49 +667,7 @@ form {
     
     }
     
-/* tablet nav */
 
-.barraInicio{
-    grid-area: header;
-    display: inline-block;
-    position: sticky;
-    z-index: 100;
-    top: 0.2rem;
-    box-sizing: border-box;
-    overflow: hidden;
-    width: 100%;
-    justify-content: space-evenly;
-
-
-
-}
-.letra{
-    text-decoration: none;
-    color: rgba(255, 208, 0, 0.863);
-    font-size: 0.9rem;
-    text-align: center;
-}
-.indice{
-    display: inline-flex;
-    list-style-type: none;
-    background-color: rgb(32, 32, 37);
-    border-radius: 10%;
-    padding: 0.8rem;
-    margin: 0.1rem;
-
-}
-.ul{
-    list-style: none;
-    font-size: large;
-    font-weight: bolder;
-    display: flex;
-}
-.imgLogo{
-    margin-left: 35%;
-    width: 25%;
-    display: none;
-
-}
 
 /* tablet footer */
 
