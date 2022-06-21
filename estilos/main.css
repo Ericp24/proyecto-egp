@@ -317,6 +317,7 @@ h2{
 .tituloContacto{
     text-align: center;
     font-size: 3.5rem;
+    margin-top: 3.5rem;
 }
 
 .infoContacto{
@@ -776,6 +777,55 @@ form {
         border-radius: 10%;
     }
 
+    .imagenUno{
+        grid-area: imagenUno;
+        margin: 0.1rem;
+        margin-top: 1rem;
+    }
+    
+    .imagenDos{
+        grid-area: imagenDos;
+        margin: 0.1rem;
+        margin-top: 1rem;
+    
+    }
+    .imagenTres{
+        grid-area: imagenTres;
+        margin: 0.1rem;
+        margin-top: 1rem;
+    }
+    .imagenCuatro{
+        grid-area: imagenCuatro;
+        margin: 0.1rem;
+        margin-top: 1rem;
+    
+    }
+    .imagenCinco{
+        grid-area: imagenCinco;
+        margin: 0.1rem;
+        margin-top: 1rem;
+    
+    }
+    .imagenSeis{
+        grid-area: imagenSeis;
+        margin: 0.1rem;
+        margin-top: 1rem;
+    
+    }
+    .imagenSiete{
+        grid-area: imagenSiete;
+        margin: 0.1rem;
+        margin-top: 1rem;
+    
+    }
+    .imagenOcho{
+        grid-area: imagenOcho;
+        margin: 0.1rem;
+        margin-top: 1rem;
+    
+    }
+    
+
 /* tablet contacto */
 
 .contactanos{
@@ -831,7 +881,7 @@ form {
 
 .formulario{
     grid-area: formulario;
-    width: 80%;
+    width: 100%;
     margin: 5%;
 }
             
