@@ -1,0 +1,52 @@
+/* index */
+
+/* grid index */
+
+.body{
+    display: grid;
+    grid-template-areas: "header"
+                         "main"
+                         "footer";
+
+.tituloPr{
+    color: rgb(17, 17, 17);
+    font-size: 5rem;
+    position: absolute;
+    text-align: center;
+    margin-left: 25%;
+
+}
+h2{
+    color: rgba(255, 208, 0, 0.863);
+    font-weight: normal;
+    text-align: center;
+    font-size: 3rem;
+}
+.h3Pr{
+    color:rgba(255, 208, 0, 0.863);
+    font-weight: normal;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.subtitulos{
+    background-color: rgb(20, 20, 20);
+    margin-top: 6rem;
+    width: 100%;
+    position: absolute;
+    padding: 8rem;
+    
+}
+
+.imgFondo{
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    opacity: 25%;
+    height: 100%;
+}
+
+}
+
+
+

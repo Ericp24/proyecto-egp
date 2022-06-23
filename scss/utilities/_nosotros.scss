@@ -1,0 +1,50 @@
+/* Nosotros */
+
+.container{
+    .row{
+        margin-top: 6rem;
+        .col{
+            h1{
+                font-weight: bold;
+                text-align: center;
+                font-size: 3.5rem;
+            }
+            p{
+                font-weight: bold;
+                text-align: center;
+            }
+            img{
+                box-shadow: 3px 3px black;
+                width: 90%;
+                align-items: center;
+                margin-top: 2%;
+                border-radius: 10%;
+            }
+            h2{
+                color: #111111;
+                font-weight: bold;
+            }
+        }
+    }
+    div{
+        h2{
+            color: #111111;
+            font-weight: bold;
+        }
+        p{
+            font-weight: bold;
+            text-align: center;
+        }
+    }
+}
+
+/* Media mobile */
+
+@media screen and ( max-width: 600px ) {
+
+
+
+    
+
+
+}
