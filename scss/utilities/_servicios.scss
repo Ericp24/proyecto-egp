@@ -16,95 +16,89 @@
 .imagenSeccion{
     grid-area: imagenSeccion;
 }
+
+@mixin card-servicios {
+    background-color: rgb(32, 32, 37);;
+    border-radius: 6%;
+    padding: 0.8rem;
+    margin: 1.5rem;
+    width: 35rem;
+    height: 23rem;
+    box-sizing: border-box;
+}
 .consultoria{
     grid-area: consultora;
+    @include card-servicios();
 
 }
 .mediciones{
     grid-area: mediciones;
+    @include card-servicios();
 
 }
 .ambiente{
     grid-area: ambiente;
+    @include card-servicios();
+    height: 15rem;
 
 }
 .incendios{
     grid-area: incendio;
+    @include card-servicios();
+    height: 15rem;
 
 }
 .habilitacion{
     grid-area: habilitacion;
+    @include card-servicios();
     
 }
 
 .tituloServicios{
+    margin-top: 6rem;
     text-align: center;
-    font-size: 3.5rem;
+    @include titulo-principal();
 
 }
-
 
 }
 .imagenServicios{
     margin-top: 5rem;
     border-radius: 10%;
-    width:80%
+    width: 90%;
+    box-shadow: 3px 3px rgb(32, 32, 37);;
 }
 .imagenTipoUno{
-    border-radius: 10%;
-    margin-left: 39%;
-    margin-top: 2%;
+    @include imagenTipo()
 }
 .imagenTipoDos{
-    border-radius: 10%;
-    margin-left: 37%;
-    margin-top: 2%;
+    @include imagenTipo()
 }
 .imagenTipoTres{
-    border-radius: 10%;
-    margin-left: 42%;
-    margin-top: 2%;
+    @include imagenTipo()
 }
 .imagenTipoCuatro{
-    border-radius: 10%;
-    margin-left: 39%;
-    margin-top: 2%;
+    @include imagenTipo()
 }
 .imagenTipoCinco{
-    border-radius: 10%;
-    margin-left: 45%;
-    margin-top: 2%;
-    align-content: center;
-
-}
-
-@mixin textoServicios {
-    text-align: center;
-    font-weight: bolder;
-    
+    @include imagenTipo()
 }
 
 .tituloServiciosPrestados{
     @include textoServicios();
     font-size: 1.8rem;
-    background-color: rgb(32, 32, 37);
-    margin-left: 8%;
-    margin-right: 8%;
-    border-radius: 15px;
-    color:rgb(214, 214, 24);
+    border-radius: 10%;
+    color:rgba(255, 208, 0, 0.863);
     
 }
 
-
 .parrafoServiciosPrestados{
     @include textoServicios();
-    
 }
 
 .parrafoServicios{
     @include textoServicios();
+    color: black;
     font-size: 1.5rem;
-
 }
-
 

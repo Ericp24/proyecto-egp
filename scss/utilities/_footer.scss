@@ -3,7 +3,7 @@
 .footer{
     grid-area: footer;
     text-align: center;
-    background-color: black;
+    background-color: rgb(32, 32, 37);;
     color: rgba(255, 208, 0, 0.863);
     margin-top: 12rem;
     padding: 3rem;
@@ -13,5 +13,14 @@
         color: rgba(255, 208, 0, 0.863);
         margin: 0.5rem;
         }
+
+    h5{
+        padding-top: 2.5rem;
+        font-size: 1rem;
+    }
+
+    svg:hover{
+        transform: scale(1.5);
+    }
 
 }

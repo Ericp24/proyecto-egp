@@ -5,16 +5,19 @@
         margin-top: 6rem;
         .col{
             h1{
-                font-weight: bold;
                 text-align: center;
+                background-color: rgb(17,17,17);
+                color: rgba(255, 208, 0, 0.863);
+                padding: 2rem;
                 font-size: 3.5rem;
+                font-weight: bolder;
             }
             p{
                 font-weight: bold;
                 text-align: center;
             }
             img{
-                box-shadow: 3px 3px black;
+                box-shadow: 3px 3px rgb(32, 32, 37);;
                 width: 90%;
                 align-items: center;
                 margin-top: 2%;

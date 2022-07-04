@@ -1,0 +1,99 @@
+/* Clientes */
+
+.sectionClientes{
+    display: grid;
+    grid-template-areas:"imagenCinco imagenSeis imagenTres imagenCuatro"
+                        "imagenDos imagenUno imagenOcho imagenSiete";
+    justify-items: center;
+    align-items: center;
+    
+}
+
+.sectionClientes{
+    margin-top: 0.5rem;
+    padding: 2rem;
+    box-sizing: border-box;
+    justify-content: center;
+
+    .imagenUno{
+        grid-area: imagenUno;
+        margin: 1rem;
+    }
+    
+    .imagenDos{
+        grid-area: imagenDos;
+        margin: 1rem;
+    
+    }
+    .imagenTres{
+        grid-area: imagenTres;
+        margin: 1rem;
+    }
+    .imagenCuatro{
+        grid-area: imagenCuatro;
+        margin: 1rem;
+    
+    }
+    .imagenCinco{
+        grid-area: imagenCinco;
+        margin: 1rem;
+    
+    }
+    .imagenSeis{
+        grid-area: imagenSeis;
+        margin: 1rem;
+    
+    }
+    .imagenSiete{
+        grid-area: imagenSiete;
+        margin: 1rem;
+    
+    }
+    .imagenOcho{
+        grid-area: imagenOcho;
+        margin: 1rem;
+    
+    }
+
+}
+
+.tituloClientes{
+    text-align: center;
+    margin-top: 3.5rem;
+    @include titulo-principal()
+}
+
+.logosClientes{
+    border-radius: 10%;
+}
+
+.logosClientes:hover{
+    border: 5px solid;
+    transform: scale(1.2);
+}
+
+/* mobile clientes */
+
+/*media mobile*/
+
+@media screen and ( max-width: 600px ) {
+
+.sectionClientes{
+    display: grid;
+    grid-template-areas:"imagenSiete"
+                        "imagenCinco"
+                        "imagenCuatro"
+                        "imagenDos"
+                        "imagenTres" 
+                        "imagenOcho" 
+                        "imagenUno" 
+                        "imagenSeis";
+}
+    
+    .tituloClientes{
+        font-size: 3.5rem;
+        margin-top: 6rem;
+    }
+    
+
+}

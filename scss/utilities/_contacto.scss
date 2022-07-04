@@ -1,0 +1,102 @@
+/* Contacto */
+
+.contactanos{
+    display: grid;
+    grid-template-areas:"inicioContacto inicioContacto"
+                        "datosContacto ubicacion"
+                        "formulario formulario";
+    justify-items: center;
+    align-items: center;
+
+    .inicioContacto{
+        grid-area: inicioContacto;
+
+        .tituloContacto{
+            text-align: center;
+            margin-top: 3.5rem;
+            @include titulo-principal;
+
+        }
+        .infoContacto{
+            text-align: center;
+            margin-left: 8%;
+            margin-right: 8%;
+            margin-top: 2%;
+            margin-bottom: 3%;
+            font-size: 1.5rem;
+        }
+
+    }
+    .datosContacto{
+        grid-area: datosContacto;
+
+        .listaContacto{
+            list-style: none;
+            font-size: 1.5rem;
+            text-align: center;
+            background-color: rgb(32, 32, 37);
+            border-radius: 10px;
+            margin-left: 20%;
+            color: rgba(255, 208, 0, 0.863);
+            padding: 1rem;
+            
+        
+        }
+    }
+
+    form {
+        width: 600px;
+        margin: auto;
+        background-color: rgb(32, 32, 37);
+        padding: 10px 20px;
+        box-sizing: border-box;
+        margin-top: 20px;
+        border-radius: 10px;
+
+        .tituloForm{
+            color: rgba(255, 208, 0, 0.863);
+            text-align: center;
+            margin: 0%;
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+        input, textarea {
+            width: 100%;
+            margin-bottom: 20px;
+            padding: 7px;
+            box-sizing: border-box;
+            font-size: 17px;
+            border: none;
+            font-weight: bolder;
+        }
+        
+        textarea {
+            min-height: 100px;
+            max-height: 200px;
+            max-width: 100%;
+            
+        }
+        
+        #boton {
+            background:rgba(255, 208, 0, 0.863);
+            padding: 20px;
+            font-weight: bolder;
+        }
+
+    }
+    .ubicacion{
+        grid-area: ubicacion;
+        
+    }
+    
+    .formulario{
+        grid-area: formulario;
+    
+    }
+
+
+
+}
+
+
+
