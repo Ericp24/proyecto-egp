@@ -52,3 +52,47 @@ h2{
 }
 
 /*media mobile*/
+
+@media screen and ( max-width: 600px ) {
+
+.body{
+    display: grid;
+    grid-template-areas: "header"
+                         "main"
+                         "footer";
+
+.tituloPr{
+    font-size: 3rem;
+    margin-left: 1%;
+    margin-top: 5rem;
+    position: static;
+}
+h2{
+    font-size: 2.5rem;
+}
+.h3Pr{
+    font-size: 1.5rem;
+}
+
+.subtitulos{
+    margin-top: 0.5rem;
+    width: 100%;
+    position: absolute;
+    padding: 2rem;
+    height: 22rem;
+  
+}
+
+.imgFondo{
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    opacity: 25%;
+    height: 87%;
+    margin-top: 0.5rem;
+    
+}
+
+}
+
+}

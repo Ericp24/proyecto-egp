@@ -33,12 +33,13 @@
         .listaContacto{
             list-style: none;
             font-size: 1.5rem;
-            text-align: center;
+            text-align: left;
             background-color: rgb(32, 32, 37);
             border-radius: 10px;
             margin-left: 20%;
             color: rgba(255, 208, 0, 0.863);
             padding: 1rem;
+            width: 90%;
             
         
         }
@@ -95,6 +96,65 @@
     }
 
 
+
+}
+
+/* mobile contacto */
+
+@media screen and ( max-width: 600px ) {
+
+
+    .contactanos{
+        display: grid;
+        grid-template-areas:"inicioContacto"
+                            "datosContacto" 
+                            "ubicacion"
+                            "formulario";
+        justify-items: center;
+        align-items: center;
+    }
+    .contactanos{
+    
+        .inicioContacto{
+    
+            .tituloContacto{
+                text-align: center;
+                margin-top: 3.5rem;
+            }
+            .infoContacto{
+                text-align: center;
+                margin: 3%;
+            }
+    
+        }
+        .datosContacto{
+    
+            .listaContacto{
+                list-style: none;
+                font-size: 1rem;
+                margin: 0%;
+                padding:0.1rem;
+                width: 100%;     
+            
+            }
+        }
+    
+        form {
+            max-width: 100vh;
+            width: 90%;
+    
+            .tituloForm{
+                margin: 0%;
+            }
+
+        }
+        .ubicacion{
+            display: none;
+            
+        }
+    
+    }
+    
 
 }
 
