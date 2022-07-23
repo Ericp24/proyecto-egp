@@ -6,7 +6,7 @@
   font-family: 'Roboto Mono', monospace; }
 
 .body {
-  background-color: rgba(255, 208, 0, 0.863); }
+  background-color: rgba(255, 237, 36, 0.863); }
 
 /* index */
 /* grid index */
@@ -209,6 +209,17 @@
     font-size: 3.5rem;
     margin-top: 6rem; } }
 
+/*edia tablet */
+/*media tablet*/
+@media screen and (min-width: 601px) and (max-width: 1200px) {
+  .sectionClientes {
+    display: grid;
+    grid-template-areas: "imagenSiete imagenTres" "imagenCinco imagenOcho" "imagenCuatro imagenUno" "imagenDos imagenSeis";
+    padding: 0.5rem; }
+  .tituloClientes {
+    font-size: 3.3rem;
+    margin-top: 6rem; } }
+
 /* Servicios */
 .mainDos {
   display: grid;
@@ -217,7 +228,7 @@
   align-items: center; }
   .mainDos .primeraServicios {
     grid-area: servicios;
-    width: 80%; }
+    width: 90%; }
   .mainDos .imagenSeccion {
     grid-area: imagenSeccion; }
   .mainDos .consultoria {
@@ -346,14 +357,23 @@
   .incendios {
     height: 15rem; }
   .tituloServicios {
-    margin-top: 6rem;
+    margin-top: 5rem;
     font-size: 2rem;
-    background-color: aqua;
     width: 100%; }
   .imagenServicios {
     margin-top: 4.5rem;
     border-radius: 10%;
     width: 100%; }
+  .imagenTipoUno {
+    margin-left: 9.2rem; }
+  .imagenTipoDos {
+    margin-left: 9.2rem; }
+  .imagenTipoTres {
+    margin-left: 9.2rem; }
+  .imagenTipoCuatro {
+    margin-left: 9.2rem; }
+  .imagenTipoCinco {
+    margin-left: 9.2rem; }
   .tituloServiciosPrestados {
     font-size: 1.5rem;
     border-radius: 10%; }
@@ -363,6 +383,41 @@
     color: rgba(255, 208, 0, 0.863);
     color: black;
     font-size: 1.3rem; } }
+
+@media screen and (min-width: 601px) and (max-width: 1200px) {
+  .mainDos {
+    display: grid;
+    grid-template-areas: "servicios"  "imagenSeccion" "consultora"  "mediciones" "ambiente"  "incendio" "habilitacion";
+    justify-items: center;
+    align-items: center; }
+  .primeraServicios {
+    width: 100%; }
+  .ambiente {
+    height: 15rem; }
+  .incendios {
+    height: 15rem; }
+  .tituloServicios {
+    margin-top: 5rem;
+    font-size: 2rem;
+    width: 100%; }
+  .imagenServicios {
+    margin-top: 4.5rem;
+    border-radius: 10%;
+    width: 100%;
+    display: none; }
+  .imagenTipoUno {
+    margin-left: 12.2rem; }
+  .imagenTipoDos {
+    margin-left: 12.2rem; }
+  .imagenTipoTres {
+    margin-left: 12.2rem; }
+  .imagenTipoCuatro {
+    margin-left: 12.2rem; }
+  .imagenTipoCinco {
+    margin-left: 12.2rem; }
+  .tituloServiciosPrestados {
+    font-size: 1.5rem;
+    border-radius: 10%; } }
 
 /* Contacto */
 .contactanos {
@@ -460,3 +515,30 @@
       margin: 0%; }
   .contactanos .ubicacion {
     display: none; } }
+
+/* media tablet */
+@media screen and (max-width: 1200px) {
+  .contactanos {
+    display: grid;
+    grid-template-areas: "inicioContacto" "datosContacto"  "ubicacion" "formulario";
+    justify-items: center;
+    align-items: center; }
+  .contactanos .inicioContacto .tituloContacto {
+    text-align: center;
+    margin-top: 3.5rem; }
+  .contactanos .inicioContacto .infoContacto {
+    text-align: center;
+    margin: 3%; }
+  .contactanos .datosContacto .listaContacto {
+    list-style: none;
+    font-size: 1rem;
+    margin: 0%;
+    padding: 0.1rem;
+    width: 100%; }
+  .contactanos form {
+    max-width: 100vh;
+    width: 90%; }
+    .contactanos form .tituloForm {
+      margin: 0%; }
+  .contactanos .ubicacion {
+    margin: 4%; } }

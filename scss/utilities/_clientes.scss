@@ -98,3 +98,29 @@
 
 }
 
+/*edia tablet */
+
+/*media tablet*/
+
+@media screen and ( min-width:601px) and (max-width:1200px) {
+
+    .sectionClientes{
+        display: grid;
+        grid-template-areas:"imagenSiete imagenTres"
+                            "imagenCinco imagenOcho"
+                            "imagenCuatro imagenUno"
+                            "imagenDos imagenSeis";
+        padding: 0.5rem;
+    }
+        
+        .tituloClientes{
+            font-size: 3.3rem;
+            margin-top: 6rem;
+        }
+    
+        
+    
+    }
+    
+    
+

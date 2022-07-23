@@ -11,7 +11,7 @@
 
 .primeraServicios{
     grid-area: servicios;
-    width: 80%;
+    width: 90%;
 }
 .imagenSeccion{
     grid-area: imagenSeccion;
@@ -59,6 +59,7 @@
     margin-top: 6rem;
     text-align: center;
     @include titulo-principal();
+    
 
 }
 
@@ -133,9 +134,8 @@ width: 90%;
 }
 
 .tituloServicios{
-    margin-top: 6rem;
+    margin-top: 5rem;
     font-size: 2rem;
-    background-color:aqua;
     width: 100%;
 }
 
@@ -143,6 +143,21 @@ width: 90%;
     margin-top: 4.5rem;
     border-radius: 10%;
     width: 100%
+}
+.imagenTipoUno{
+    margin-left: 9.2rem;
+}
+.imagenTipoDos{
+    margin-left: 9.2rem;
+}
+.imagenTipoTres{
+    margin-left: 9.2rem;
+}
+.imagenTipoCuatro{
+    margin-left: 9.2rem;
+}
+.imagenTipoCinco{
+    margin-left: 9.2rem;
 }
 
 .tituloServiciosPrestados{
@@ -157,3 +172,69 @@ width: 90%;
 }
 
 }
+
+@media screen and ( min-width:601px) and (max-width:1200px) {
+    .mainDos{
+        display: grid;
+        grid-template-areas:"servicios" 
+                            "imagenSeccion"
+                            "consultora" 
+                            "mediciones"
+                            "ambiente" 
+                            "incendio"
+                            "habilitacion" ;
+        justify-items: center;
+        align-items: center;
+        
+    }
+    
+    .primeraServicios{
+    width: 100%;
+    }
+    
+    .ambiente{
+        height: 15rem;
+    }
+    .incendios{
+        height: 15rem;
+    }
+    
+    .tituloServicios{
+        margin-top: 5rem;
+        font-size: 2rem;
+        width: 100%;
+    }
+    
+    .imagenServicios{
+        margin-top: 4.5rem;
+        border-radius: 10%;
+        width: 100%;
+        display: none;
+
+        
+    }
+    .imagenTipoUno{
+        margin-left: 12.2rem;
+    }
+    .imagenTipoDos{
+        margin-left: 12.2rem;
+    }
+    .imagenTipoTres{
+        margin-left: 12.2rem;
+    }
+    .imagenTipoCuatro{
+        margin-left: 12.2rem;
+    }
+    .imagenTipoCinco{
+        margin-left: 12.2rem;
+    }
+    
+    .tituloServiciosPrestados{
+        font-size: 1.5rem;
+        border-radius: 10%;
+    }
+
+    
+    }
+    
+
