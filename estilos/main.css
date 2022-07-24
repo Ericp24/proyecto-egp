@@ -73,6 +73,32 @@
       height: 25rem;
       margin-top: 0.5rem; } }
 
+/* media tablet */
+@media screen and (min-width: 601px) and (max-width: 1200px) {
+  .body .tituloPr {
+    font-size: 3rem;
+    margin-left: 1%;
+    margin-top: 5rem;
+    position: static; }
+  .body h2 {
+    font-size: 2rem;
+    margin-top: 15%; }
+  .body .h3Pr {
+    font-size: 1rem; }
+  .body .subtitulos {
+    margin-top: 0.5rem;
+    width: 100%;
+    position: absolute;
+    padding: 2rem;
+    height: 25rem; }
+  .body .imgFondo {
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    opacity: 25%;
+    height: 25rem;
+    margin-top: 0.5rem; } }
+
 /* Nosotros */
 .container .row {
   margin-top: 6rem; }
