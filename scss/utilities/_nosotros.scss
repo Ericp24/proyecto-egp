@@ -6,32 +6,36 @@
         .col{
             h1{
                 text-align: center;
-                background-color: rgb(17,17,17);
+                background-color: rgb(32, 32, 37);
                 color: rgba(255, 208, 0, 0.863);
                 padding: 2rem;
                 font-size: 3.5rem;
                 font-weight: bolder;
             }
-            p{
+            h3{
+                text-align: center;
+                font-weight: bold;
+            }
+            .parrafoNosotros{
                 font-weight: bold;
                 text-align: center;
+                font-size: 1.1rem;
+                padding: 0.5rem;
             }
             img{
-                box-shadow: 3px 3px rgb(32, 32, 37);;
-                width: 90%;
+                box-shadow: 3px 3px rgb(32, 32, 37);
+                width: 100%;
                 align-items: center;
-                margin-top: 2%;
                 border-radius: 10%;
             }
             h2{
-                color: #111111;
                 font-weight: bolder;
             }
         }
     }
     div{
         h2{
-            color: #111111;
+            color: rgb(32, 32, 37);
             font-weight: bold;
         }
         p{
@@ -40,14 +44,39 @@
         }
     }
 }
+.elegirnos{
+    
+    margin: 0.8rem;
+    border-style: solid;
+    border-radius: 3px;
+
+    
+    .tituloElegirnos{
+        background-color: rgb(32, 32, 37);
+        color: rgba(255, 237, 36, 0.863);
+        width: 100%;
+        padding: 1rem;
+        margin-top: 0rem;
+    }
+    .parrafoElegirnos{
+        text-align: center;
+        font-weight: bolder;
+        font-size: 1.2rem;
+        color: rgb(32, 32, 37);
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+}
 
 /* Media mobile */
 
 @media screen and ( max-width: 600px ) {
 
-
-
-
-
+col{
+    display: none;
+}
+img{
+    display: none;
+}
 
 }

@@ -78,46 +78,73 @@
   margin-top: 6rem; }
   .container .row .col h1 {
     text-align: center;
-    background-color: #111111;
+    background-color: #202025;
     color: rgba(255, 208, 0, 0.863);
     padding: 2rem;
     font-size: 3.5rem;
     font-weight: bolder; }
-  .container .row .col p {
+  .container .row .col h3 {
+    text-align: center;
+    font-weight: bold; }
+  .container .row .col .parrafoNosotros {
     font-weight: bold;
-    text-align: center; }
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 0.5rem; }
   .container .row .col img {
     box-shadow: 3px 3px #202025;
-    width: 90%;
+    width: 100%;
     align-items: center;
-    margin-top: 2%;
     border-radius: 10%; }
   .container .row .col h2 {
-    color: #111111;
     font-weight: bolder; }
 
 .container div h2 {
-  color: #111111;
+  color: #202025;
   font-weight: bold; }
 
 .container div p {
   font-weight: bold;
   text-align: center; }
 
+.elegirnos {
+  margin: 0.8rem;
+  border-style: solid;
+  border-radius: 3px; }
+  .elegirnos .tituloElegirnos {
+    background-color: #202025;
+    color: rgba(255, 237, 36, 0.863);
+    width: 100%;
+    padding: 1rem;
+    margin-top: 0rem; }
+  .elegirnos .parrafoElegirnos {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    color: #202025;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem; }
+
 /* Media mobile */
+@media screen and (max-width: 600px) {
+  col {
+    display: none; }
+  img {
+    display: none; } }
+
 /* css complementario del nav */
 .navbar .offcanvas-header {
   background-color: #202025; }
 
 .navbar .offcanvas-title {
-  color: #ffd000; }
+  color: rgba(255, 208, 0, 0.863); }
 
 .navbar .offcanvas-body {
-  background-color: #ffd000; }
+  background-color: rgba(255, 208, 0, 0.863); }
 
 .navbar .navbar-toggler {
   color: rgba(255, 208, 0, 0.863);
-  background-color: #ffd000; }
+  background-color: rgba(255, 208, 0, 0.863); }
 
 .navbar .navbar-toggler-icon {
   background-color: #ffd000; }
