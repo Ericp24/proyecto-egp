@@ -18,29 +18,32 @@
 }
 
 @mixin card-servicios {
-    background-color: rgb(32, 32, 37);;
+    background-color: rgb(32, 32, 37);
     border-radius: 6%;
     padding: 0.8rem;
-    margin: 1.6rem;
-    width: 95%;
+    margin-top: 1.6rem;
+    width: 35rem;
     height: 23rem;
     box-sizing: border-box;
-    max-width: 100vh;
+    max-width: 90%;
 }
 .consultoria{
     grid-area: consultora;
     @include card-servicios();
+    
 
 }
 .mediciones{
     grid-area: mediciones;
     @include card-servicios();
+    margin-left: 0rem;
 
 }
 .ambiente{
     grid-area: ambiente;
     @include card-servicios();
     height: 15.5rem;
+    
 
 }
 .incendios{
@@ -52,11 +55,12 @@
 .habilitacion{
     grid-area: habilitacion;
     @include card-servicios();
+
     
 }
 
 .tituloServicios{
-    margin-top: 6rem;
+    margin-top: 5rem;
     text-align: center;
     @include titulo-principal();
     
@@ -65,10 +69,10 @@
 
 }
 .imagenServicios{
-    margin-top: 5rem;
+    margin-top: 5.5rem;
     border-radius: 10%;
     width: 90%;
-    box-shadow: 3px 3px rgb(32, 32, 37);;
+    box-shadow: 3px 3px rgb(32, 32, 37);
 }
 .imagenTipoUno{
     @include imagenTipo()
@@ -120,55 +124,76 @@
     justify-items: center;
     align-items: center;
     
+@mixin card-servicios-mobile {
+    width: 95%;
+    height: auto;
+   
 }
+.consultoria{
+    grid-area: consultora;
+    @include card-servicios-mobile();
+    
 
-.primeraServicios{
-width: 90%;
 }
+.mediciones{
+    grid-area: mediciones;
+    @include card-servicios-mobile();
+    margin-left: 0rem;
 
+}
 .ambiente{
-    height: 15rem;
+    grid-area: ambiente;
+    @include card-servicios-mobile();
+
 }
 .incendios{
-    height: 15rem;
+    grid-area: incendio;
+    @include card-servicios-mobile();
+
+}
+.habilitacion{
+    grid-area: habilitacion;
+    @include card-servicios-mobile();
+    height: auto;
 }
 
-.tituloServicios{
-    margin-top: 5rem;
-    font-size: 2rem;
-    width: 100%;
+.imagenTipoUno{
+    @include imagenTipo();
+    margin-left: 33%;
+   
+}
+.imagenTipoDos{
+    @include imagenTipo();
+    margin-left: 33%;
+}
+.imagenTipoTres{
+    @include imagenTipo();
+    margin-left: 33%;
+}
+.imagenTipoCuatro{
+    @include imagenTipo();
+    margin-left: 33%;
+}
+.imagenTipoCinco{
+    @include imagenTipo();
+    margin-left: 33%;
+}
+
+.parrafoServicios{
+    font-size: 1.3rem;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
 }
 
 .imagenServicios{
-    margin-top: 4.5rem;
-    border-radius: 10%;
-    width: 100%
-}
-.imagenTipoUno{
-    margin-left: 9.2rem;
-}
-.imagenTipoDos{
-    margin-left: 9.2rem;
-}
-.imagenTipoTres{
-    margin-left: 9.2rem;
-}
-.imagenTipoCuatro{
-    margin-left: 9.2rem;
-}
-.imagenTipoCinco{
-    margin-left: 9.2rem;
+    display: none;
 }
 
 .tituloServiciosPrestados{
     font-size: 1.5rem;
     border-radius: 10%;
-}
-
-.parrafoServicios{
-    @include textoServicios();
-    color: black;
-    font-size: 1.3rem;
 }
 
 }
@@ -186,32 +211,24 @@ width: 90%;
         justify-items: center;
         align-items: center;
         
-    }
     
     .primeraServicios{
     width: 100%;
     }
     
     .ambiente{
-        height: 15rem;
+        height: auto;
     }
     .incendios{
-        height: 15rem;
+        height: auto;
     }
-    
-    .tituloServicios{
-        margin-top: 5rem;
-        font-size: 2rem;
-        width: 100%;
+    .habilitacion{
+        height: auto;
+
     }
     
     .imagenServicios{
-        margin-top: 4.5rem;
-        border-radius: 10%;
-        width: 100%;
         display: none;
-
-        
     }
     .imagenTipoUno{
         margin-left: 12.2rem;
@@ -226,15 +243,22 @@ width: 90%;
         margin-left: 12.2rem;
     }
     .imagenTipoCinco{
-        margin-left: 12.2rem;
+        margin-left: 38.5%;
     }
     
     .tituloServiciosPrestados{
         font-size: 1.5rem;
         border-radius: 10%;
     }
-
-    
+    .parrafoServicios{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
     }
+
+
+}
+  
+}
     
 

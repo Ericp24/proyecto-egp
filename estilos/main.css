@@ -236,55 +236,56 @@
     background-color: #202025;
     border-radius: 6%;
     padding: 0.8rem;
-    margin: 1.6rem;
-    width: 95%;
+    margin-top: 1.6rem;
+    width: 35rem;
     height: 23rem;
     box-sizing: border-box;
-    max-width: 100vh; }
+    max-width: 90%; }
   .mainDos .mediciones {
     grid-area: mediciones;
     background-color: #202025;
     border-radius: 6%;
     padding: 0.8rem;
-    margin: 1.6rem;
-    width: 95%;
+    margin-top: 1.6rem;
+    width: 35rem;
     height: 23rem;
     box-sizing: border-box;
-    max-width: 100vh; }
+    max-width: 90%;
+    margin-left: 0rem; }
   .mainDos .ambiente {
     grid-area: ambiente;
     background-color: #202025;
     border-radius: 6%;
     padding: 0.8rem;
-    margin: 1.6rem;
-    width: 95%;
+    margin-top: 1.6rem;
+    width: 35rem;
     height: 23rem;
     box-sizing: border-box;
-    max-width: 100vh;
+    max-width: 90%;
     height: 15.5rem; }
   .mainDos .incendios {
     grid-area: incendio;
     background-color: #202025;
     border-radius: 6%;
     padding: 0.8rem;
-    margin: 1.6rem;
-    width: 95%;
+    margin-top: 1.6rem;
+    width: 35rem;
     height: 23rem;
     box-sizing: border-box;
-    max-width: 100vh;
+    max-width: 90%;
     height: 15.5rem; }
   .mainDos .habilitacion {
     grid-area: habilitacion;
     background-color: #202025;
     border-radius: 6%;
     padding: 0.8rem;
-    margin: 1.6rem;
-    width: 95%;
+    margin-top: 1.6rem;
+    width: 35rem;
     height: 23rem;
     box-sizing: border-box;
-    max-width: 100vh; }
+    max-width: 90%; }
   .mainDos .tituloServicios {
-    margin-top: 6rem;
+    margin-top: 5rem;
     text-align: center;
     background-color: #202025;
     color: rgba(255, 208, 0, 0.863);
@@ -293,34 +294,34 @@
     font-weight: bolder; }
 
 .imagenServicios {
-  margin-top: 5rem;
+  margin-top: 5.5rem;
   border-radius: 10%;
   width: 90%;
   box-shadow: 3px 3px #202025; }
 
 .imagenTipoUno {
   border-radius: 10%;
-  margin-left: 39%;
+  margin-left: 37%;
   padding: 0.5rem; }
 
 .imagenTipoDos {
   border-radius: 10%;
-  margin-left: 39%;
+  margin-left: 37%;
   padding: 0.5rem; }
 
 .imagenTipoTres {
   border-radius: 10%;
-  margin-left: 39%;
+  margin-left: 37%;
   padding: 0.5rem; }
 
 .imagenTipoCuatro {
   border-radius: 10%;
-  margin-left: 39%;
+  margin-left: 37%;
   padding: 0.5rem; }
 
 .imagenTipoCinco {
   border-radius: 10%;
-  margin-left: 39%;
+  margin-left: 37%;
   padding: 0.5rem; }
 
 .tituloServiciosPrestados {
@@ -350,39 +351,62 @@
     grid-template-areas: "servicios"  "imagenSeccion" "consultora"  "mediciones" "ambiente"  "incendio" "habilitacion";
     justify-items: center;
     align-items: center; }
-  .primeraServicios {
-    width: 90%; }
-  .ambiente {
-    height: 15rem; }
-  .incendios {
-    height: 15rem; }
-  .tituloServicios {
-    margin-top: 5rem;
-    font-size: 2rem;
-    width: 100%; }
+    .mainDos .consultoria {
+      grid-area: consultora;
+      width: 95%;
+      height: auto; }
+    .mainDos .mediciones {
+      grid-area: mediciones;
+      width: 95%;
+      height: auto;
+      margin-left: 0rem; }
+    .mainDos .ambiente {
+      grid-area: ambiente;
+      width: 95%;
+      height: auto; }
+    .mainDos .incendios {
+      grid-area: incendio;
+      width: 95%;
+      height: auto; }
+    .mainDos .habilitacion {
+      grid-area: habilitacion;
+      width: 95%;
+      height: auto;
+      height: auto; }
+    .mainDos .imagenTipoUno {
+      border-radius: 10%;
+      margin-left: 37%;
+      padding: 0.5rem;
+      margin-left: 33%; }
+    .mainDos .imagenTipoDos {
+      border-radius: 10%;
+      margin-left: 37%;
+      padding: 0.5rem;
+      margin-left: 33%; }
+    .mainDos .imagenTipoTres {
+      border-radius: 10%;
+      margin-left: 37%;
+      padding: 0.5rem;
+      margin-left: 33%; }
+    .mainDos .imagenTipoCuatro {
+      border-radius: 10%;
+      margin-left: 37%;
+      padding: 0.5rem;
+      margin-left: 33%; }
+    .mainDos .imagenTipoCinco {
+      border-radius: 10%;
+      margin-left: 37%;
+      padding: 0.5rem;
+      margin-left: 33%; }
+    .mainDos .parrafoServicios {
+      font-size: 1.3rem;
+      margin-left: 10%;
+      margin-right: 10%; }
   .imagenServicios {
-    margin-top: 4.5rem;
-    border-radius: 10%;
-    width: 100%; }
-  .imagenTipoUno {
-    margin-left: 9.2rem; }
-  .imagenTipoDos {
-    margin-left: 9.2rem; }
-  .imagenTipoTres {
-    margin-left: 9.2rem; }
-  .imagenTipoCuatro {
-    margin-left: 9.2rem; }
-  .imagenTipoCinco {
-    margin-left: 9.2rem; }
+    display: none; }
   .tituloServiciosPrestados {
     font-size: 1.5rem;
-    border-radius: 10%; }
-  .parrafoServicios {
-    text-align: center;
-    font-weight: bolder;
-    color: rgba(255, 208, 0, 0.863);
-    color: black;
-    font-size: 1.3rem; } }
+    border-radius: 10%; } }
 
 @media screen and (min-width: 601px) and (max-width: 1200px) {
   .mainDos {
@@ -390,34 +414,33 @@
     grid-template-areas: "servicios"  "imagenSeccion" "consultora"  "mediciones" "ambiente"  "incendio" "habilitacion";
     justify-items: center;
     align-items: center; }
-  .primeraServicios {
-    width: 100%; }
-  .ambiente {
-    height: 15rem; }
-  .incendios {
-    height: 15rem; }
-  .tituloServicios {
-    margin-top: 5rem;
-    font-size: 2rem;
-    width: 100%; }
-  .imagenServicios {
-    margin-top: 4.5rem;
-    border-radius: 10%;
-    width: 100%;
-    display: none; }
-  .imagenTipoUno {
-    margin-left: 12.2rem; }
-  .imagenTipoDos {
-    margin-left: 12.2rem; }
-  .imagenTipoTres {
-    margin-left: 12.2rem; }
-  .imagenTipoCuatro {
-    margin-left: 12.2rem; }
-  .imagenTipoCinco {
-    margin-left: 12.2rem; }
-  .tituloServiciosPrestados {
-    font-size: 1.5rem;
-    border-radius: 10%; } }
+    .mainDos .primeraServicios {
+      width: 100%; }
+    .mainDos .ambiente {
+      height: auto; }
+    .mainDos .incendios {
+      height: auto; }
+    .mainDos .habilitacion {
+      height: auto; }
+    .mainDos .imagenServicios {
+      display: none; }
+    .mainDos .imagenTipoUno {
+      margin-left: 12.2rem; }
+    .mainDos .imagenTipoDos {
+      margin-left: 12.2rem; }
+    .mainDos .imagenTipoTres {
+      margin-left: 12.2rem; }
+    .mainDos .imagenTipoCuatro {
+      margin-left: 12.2rem; }
+    .mainDos .imagenTipoCinco {
+      margin-left: 38.5%; }
+    .mainDos .tituloServiciosPrestados {
+      font-size: 1.5rem;
+      border-radius: 10%; }
+    .mainDos .parrafoServicios {
+      width: 80%;
+      margin-left: 10%;
+      margin-right: 10%; } }
 
 /* Contacto */
 .contactanos {
@@ -533,7 +556,7 @@
     list-style: none;
     font-size: 1rem;
     margin: 0%;
-    padding: 0.1rem;
+    padding: 0.2rem;
     width: 100%; }
   .contactanos form {
     max-width: 100vh;
