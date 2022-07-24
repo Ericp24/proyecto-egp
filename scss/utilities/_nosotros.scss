@@ -4,13 +4,15 @@
     .row{
         margin-top: 6rem;
         .col{
+            padding: 0%;
             h1{
                 text-align: center;
                 background-color: rgb(32, 32, 37);
                 color: rgba(255, 208, 0, 0.863);
-                padding: 2rem;
+                padding:2rem;
                 font-size: 3.5rem;
                 font-weight: bolder;
+                margin: 1.2rem;
             }
             h3{
                 text-align: center;
@@ -63,20 +65,19 @@
         font-weight: bolder;
         font-size: 1.2rem;
         color: rgb(32, 32, 37);
-        padding-left: 0.5rem;
-        padding-right: 0.5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
 }
 
 /* Media mobile */
 
-@media screen and ( max-width: 600px ) {
+@media screen and ( max-width: 1200px ) {
 
 col{
     display: none;
 }
-img{
+.divImagenNos{
     display: none;
 }
-
 }
