@@ -1,9 +1,9 @@
-$amarillo-principal: rgba(255, 208, 0, 0.863);
+$amarillo-principal: rgba(255, 237, 36, 0.863);
 $color-secundario: rgb(17, 17, 17);
 
 @mixin titulo-principal{
     background-color: rgb(32, 32, 37);
-    color: rgba(255, 208, 0, 0.863);
+    color: rgba(255, 237, 36, 0.863);
     padding: 2rem;
     font-size: 3.5rem;
     font-weight: bolder;
@@ -12,7 +12,7 @@ $color-secundario: rgb(17, 17, 17);
 @mixin textoServicios {
     text-align: center;
     font-weight: bolder;
-    color:rgba(255, 208, 0, 0.863);
+    color:rgba(255, 237, 36, 0.863);
     
 }
 

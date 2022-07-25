@@ -37,7 +37,7 @@
             background-color: rgb(32, 32, 37);
             border-radius: 10px;
             margin-left: 20%;
-            color: rgba(255, 208, 0, 0.863);
+            color: rgba(255, 237, 36, 0.863);
             padding: 1rem;
             width: 90%;
             
@@ -55,7 +55,7 @@
         border-radius: 10px;
 
         .tituloForm{
-            color: rgba(255, 208, 0, 0.863);
+            color: rgba(255, 237, 36, 0.863);
             text-align: center;
             margin: 0%;
             font-size: 30px;
@@ -79,7 +79,7 @@
         }
         
         #boton {
-            background:rgba(255, 208, 0, 0.863);
+            background:rgba(255, 237, 36, 0.863);
             padding: 20px;
             font-weight: bolder;
         }
@@ -122,8 +122,7 @@
                 margin-top: 3.5rem;
             }
             .infoContacto{
-                text-align: center;
-                margin: 3%;
+                display: none;
             }
     
         }

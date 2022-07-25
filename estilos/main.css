@@ -14,7 +14,7 @@
   display: grid;
   grid-template-areas: "header" "main" "footer"; }
   .body .tituloPr {
-    color: #111111;
+    color: #202025;
     font-size: 5rem;
     position: absolute;
     text-align: center;
@@ -22,17 +22,17 @@
     margin-top: 4.5rem;
     font-weight: bolder; }
   .body h2 {
-    color: rgba(255, 208, 0, 0.863);
+    color: rgba(255, 237, 36, 0.863);
     font-weight: normal;
     text-align: center;
     font-size: 3rem; }
   .body .h3Pr {
-    color: rgba(255, 208, 0, 0.863);
+    color: rgba(255, 237, 36, 0.863);
     font-weight: normal;
     text-align: center;
     font-size: 1.5rem; }
   .body .subtitulos {
-    background-color: #141414;
+    background-color: #202025;
     margin-top: 12rem;
     width: 100%;
     position: absolute;
@@ -107,7 +107,7 @@
     .container .row .col h1 {
       text-align: center;
       background-color: #202025;
-      color: rgba(255, 208, 0, 0.863);
+      color: rgba(255, 237, 36, 0.863);
       padding: 2rem;
       font-size: 3.5rem;
       font-weight: bolder;
@@ -166,22 +166,22 @@
   background-color: #202025; }
 
 .navbar .offcanvas-title {
-  color: rgba(255, 208, 0, 0.863); }
+  color: rgba(255, 237, 36, 0.863); }
 
 .navbar .offcanvas-body {
-  background-color: rgba(255, 208, 0, 0.863); }
+  background-color: rgba(255, 237, 36, 0.863); }
 
 .navbar .navbar-toggler {
-  color: rgba(255, 208, 0, 0.863);
-  background-color: rgba(255, 208, 0, 0.863); }
+  color: rgba(255, 237, 36, 0.863);
+  background-color: rgba(255, 237, 36, 0.863); }
 
 .navbar .navbar-toggler-icon {
-  background-color: #ffd000; }
+  background-color: rgba(255, 237, 36, 0.863); }
 
 .navbar .navbar-brand {
   background-color: #202025;
   border-radius: 10px;
-  color: #ffd000;
+  color: rgba(255, 237, 36, 0.863);
   padding: 0.4rem; }
 
 /* css del footer */
@@ -189,12 +189,12 @@
   grid-area: footer;
   text-align: center;
   background-color: #202025;
-  color: rgba(255, 208, 0, 0.863);
+  color: rgba(255, 237, 36, 0.863);
   margin-top: 12rem;
   padding: 3rem; }
   .footer .icono {
     text-decoration: none;
-    color: rgba(255, 208, 0, 0.863);
+    color: rgba(255, 237, 36, 0.863);
     margin: 0.5rem; }
   .footer h5 {
     padding-top: 2.5rem;
@@ -243,7 +243,7 @@
   text-align: center;
   margin-top: 3.5rem;
   background-color: #202025;
-  color: rgba(255, 208, 0, 0.863);
+  color: rgba(255, 237, 36, 0.863);
   padding: 2rem;
   font-size: 3.5rem;
   font-weight: bolder; }
@@ -343,7 +343,7 @@
     margin-top: 5rem;
     text-align: center;
     background-color: #202025;
-    color: rgba(255, 208, 0, 0.863);
+    color: rgba(255, 237, 36, 0.863);
     padding: 2rem;
     font-size: 3.5rem;
     font-weight: bolder; }
@@ -382,21 +382,21 @@
 .tituloServiciosPrestados {
   text-align: center;
   font-weight: bolder;
-  color: rgba(255, 208, 0, 0.863);
+  color: rgba(255, 237, 36, 0.863);
   font-size: 1.8rem;
   border-radius: 10%;
-  color: rgba(255, 208, 0, 0.863); }
+  color: rgba(255, 237, 36, 0.863); }
 
 .parrafoServiciosPrestados {
   text-align: center;
   font-weight: bolder;
-  color: rgba(255, 208, 0, 0.863); }
+  color: rgba(255, 237, 36, 0.863); }
 
 .parrafoServicios {
   text-align: center;
   font-weight: bolder;
-  color: rgba(255, 208, 0, 0.863);
-  color: black;
+  color: rgba(255, 237, 36, 0.863);
+  color: #202025;
   font-size: 1.5rem; }
 
 /* mobile servicios */
@@ -509,7 +509,7 @@
       text-align: center;
       margin-top: 3.5rem;
       background-color: #202025;
-      color: rgba(255, 208, 0, 0.863);
+      color: rgba(255, 237, 36, 0.863);
       padding: 2rem;
       font-size: 3.5rem;
       font-weight: bolder; }
@@ -529,7 +529,7 @@
       background-color: #202025;
       border-radius: 10px;
       margin-left: 20%;
-      color: rgba(255, 208, 0, 0.863);
+      color: rgba(255, 237, 36, 0.863);
       padding: 1rem;
       width: 90%; }
   .contactanos form {
@@ -541,7 +541,7 @@
     margin-top: 20px;
     border-radius: 10px; }
     .contactanos form .tituloForm {
-      color: rgba(255, 208, 0, 0.863);
+      color: rgba(255, 237, 36, 0.863);
       text-align: center;
       margin: 0%;
       font-size: 30px;
@@ -559,7 +559,7 @@
       max-height: 200px;
       max-width: 100%; }
     .contactanos form #boton {
-      background: rgba(255, 208, 0, 0.863);
+      background: rgba(255, 237, 36, 0.863);
       padding: 20px;
       font-weight: bolder; }
   .contactanos .ubicacion {
@@ -578,8 +578,7 @@
     text-align: center;
     margin-top: 3.5rem; }
   .contactanos .inicioContacto .infoContacto {
-    text-align: center;
-    margin: 3%; }
+    display: none; }
   .contactanos .datosContacto .listaContacto {
     list-style: none;
     font-size: 1rem;

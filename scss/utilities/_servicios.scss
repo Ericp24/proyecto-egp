@@ -94,7 +94,7 @@
     @include textoServicios();
     font-size: 1.8rem;
     border-radius: 10%;
-    color:rgba(255, 208, 0, 0.863);
+    color:rgba(255, 237, 36, 0.863);
     
 }
 
@@ -104,7 +104,7 @@
 
 .parrafoServicios{
     @include textoServicios();
-    color: black;
+    color: rgb(32, 32, 37);
     font-size: 1.5rem;
 }
 
